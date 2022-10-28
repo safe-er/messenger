@@ -1,0 +1,219 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+
+/* Base */
+html { 
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Header */
+/* Logo */
+header {
+    background-color: white;
+    z-index: 999;
+    top: 0;
+    transition: 0.1s ease-in-out;
+    width: 100%;
+    padding: 1rem;
+}
+
+header.scrolled {
+    border-bottom: 1px solid #E6E6E6;
+    position: fixed;
+    z-index: 999;
+    backdrop-filter: blur(8px);
+}
+
+header .logo img {
+    position: relative;
+    left: 9rem;
+    top: 1.2rem;
+}
+
+/* Links */
+header .links a {
+    text-decoration: none;
+    display: inline-block;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 550;
+    font-size: 14px;
+    position: relative;
+    bottom: 1rem;
+    left: 53rem;
+    margin-left: 20px;
+}
+
+header .links a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0a7cff;
+}
+
+header .links a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/* Main */
+main {
+    margin-bottom: 0;
+}
+
+main h1 {
+    background-image: linear-gradient(81.84deg, #0099ff -9.4%, #a033ff 51.57%, #ff5280 84.07%, #ff7061 90.59%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 90px;
+    position: relative;
+    left: 9rem;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+    font-size: 60px;
+    font-weight: 650;
+    letter-spacing: -2px;
+    line-height: 82px;
+    padding: 0 0 8px;
+    text-align: left;
+    word-break: break-word;
+}
+
+main img {
+    position: relative;
+    left: 50rem;
+    bottom: 22rem;
+}
+
+main p {
+    color: #595959;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    position: relative;
+    left: 9rem;
+    bottom: 2rem;
+}
+
+main .login .data {
+    background-color: #F5F5F5;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    left: 9rem;
+    bottom: 40rem;
+    width: 20%;
+    margin-bottom: 14px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+main .login button {
+    border: none;
+    background-color: #0A7CFF;
+    padding: 2px 20px 0;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+    border-radius: 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    position: relative;
+    left: 9rem;
+    bottom: 40rem;
+}
+
+main .login button:hover {
+    background-color: #4d4dff;
+    color: white;
+}
+
+main .login a {
+    text-decoration: underline;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    position: relative;
+    left: 10rem;
+    bottom: 40rem;
+    color: #0099ff;
+}
+
+main .login .box {
+    position: relative;
+    bottom: 33.5rem;
+    right: 8rem;
+    -webkit-appearance: none;
+    width: 20px;
+    cursor: pointer;
+    height: 20px;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid #EEEEEE;
+}
+
+main .login .box:checked {
+    background-color: #0A7CFF;
+}
+
+main .login label {
+    color: #595959;
+    position: relative;
+    bottom: 34rem;
+    right: 7rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Apps */
+main .app img {
+    position: relative;
+    bottom: 33rem;
+    left: 9rem;
+}
+
+main .app img:nth-child(2) { 
+    border-radius: 10px; 
+    position: relative;
+}
+
+/* Footer */
+footer {
+    position: relative;
+    bottom: 30rem;
+    margin-bottom: 0;
+}
+
+/* Left */
+footer .left span {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    left: 8rem;
+    top: 3rem;
+    font-size: 0.8rem;
+}
+
+footer .links a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #000;
+    position: relative;
+    left: 50rem;
+    bottom: 1.5rem;
+    margin-left: 3rem;
+}
+
+footer .links img {
+    position: relative;
+    left: 53rem;
+}
